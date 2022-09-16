@@ -1,0 +1,52 @@
+body {
+  background: #A9A9A9;
+  margin: 0px;
+  padding: 10%;
+}
+.div-color-container {
+  width: 80vw;
+  height: 10vh;
+}
+.green {
+  background: green;
+}
+.blue {
+  background: blue;
+}
+.purple {
+  background: purple;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .celular {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  .tv {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 1279px) {
+  .celular {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+  .tv {
+    display: none;
+  }
+}
+@media (min-width: 1280px) {
+  .celular {
+    display: none;
+  }
+  .desktop {
+    display: none;
+  }
+  .tv {
+    display: block;
+  }
+}

@@ -1,0 +1,19 @@
+body {
+  background: #A9A9A9;
+  margin: 0px;
+  padding: 10%;
+}
+
+div {
+  display: none;
+}
+@media (orientation: landscape) {
+  div {
+    display: block;
+    margin: auto;
+    width: 50vh;
+    height: 50vh;
+    background: lightcoral;
+    padding: 5%;
+  }
+}

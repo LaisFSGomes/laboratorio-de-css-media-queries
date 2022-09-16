@@ -1,0 +1,58 @@
+/*
+até 320px: preto
+de 320px até 480px: lightblue
+de 480px até 600px: lightgreen
+de 600px até 768px: lightyellow
+de 768px até 800px: brown
+de 800px até 1024px: darkblue
+de 1024px até 1280px: darkgreen
+de 1280px até 1440px: darkred
+*/
+body {
+  background: #A9A9A9;
+  margin: 0px;
+  padding: 10%;
+}
+div {
+  display: block;
+  margin: auto;
+  width: 50vw;
+  height: 50vw;
+  background: darkblue;
+}
+
+@media (max-width: 320px) {
+  div {
+    background: black;
+  }
+}
+@media (min-width: 320px ) and (max-width:480px) {
+  div {
+    background: lightblue;
+  }
+}
+@media (min-width: 480px ) and (max-width:600px) {
+  div {
+    background: lightgreen;
+  }
+}
+@media (min-width: 600px ) and (max-width:768px) {
+  div {
+    background: lightyellow;
+  }
+}
+@media (min-width: 768px ) and (max-width:800px) {
+  div {
+    background: brown;
+  }
+}
+@media (min-width: 800px ) and (max-width:1024px) {
+  div {
+    background: darkblue;
+  }
+}
+@media (min-width: 1024px ) and (max-width:1280px) {
+  div {
+    background: darkgreen;
+  }
+}
